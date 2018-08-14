@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>Airline Ratings</title>
+</head>
+<body>
+<h1>Rate Our Airline!</h1><br />
+<form method="POST" action="AirlineRatings.php">
+<p>Date <input type="text" name="Date"/></p>
+<p>Time <input type="text" name="Time"/></p>
+<p>Flight Number <input type="text" name="FlightNumber"/></p>
+<p>Friendliness of Customer Staff</p>
+<input type="radio" name="Friendliness" value="Excellent"> Excellent<br />
+<input type="radio" name="Friendliness" value="Good"> Good<br />
+<input type="radio" name="Friendliness" value="Fair"> Fair<br />
+<input type="radio" name="Friendliness" value="Poor"> Poor<br />
+<input type="radio" name="Friendliness" value="NoOpinion"> No Opinion<br />
+</form><br /><br />
+<form method="POST" action="AirlineRatings.php">
+<p>Space for Luggage Storage</p>
+<input type="radio" name="Storage" value="Excellent"> Excellent<br />
+<input type="radio" name="Storage" value="Good"> Good<br />
+<input type="radio" name="Storage" value="Fair"> Fair<br />
+<input type="radio" name="Storage" value="Poor"> Poor<br />
+<input type="radio" name="Storage" value="NoOpinion"> No Opinion<br />
+</form><br /><br />
+<form method="POST" action="AirlineRatings.php">
+<p>Comfort of Seating</p>
+<input type="radio" name="Seating" value="Excellent"> Excellent<br />
+<input type="radio" name="Seating" value="Good"> Good<br />
+<input type="radio" name="Seating" value="Fair"> Fair<br />
+<input type="radio" name="Seating" value="Poor"> Poor<br />
+<input type="radio" name="Seating" value="NoOpinion"> No Opinion<br />
+</form><br /><br />
+<form method="POST" action="AirlineRatings.php">
+<p>Cleanliness of Aircraft</p>
+<input type="radio" name="Cleanliness" value="Excellent"> Excellent<br />
+<input type="radio" name="Cleanliness" value="Good"> Good<br />
+<input type="radio" name="Cleanliness" value="Fair"> Fair<br />
+<input type="radio" name="Cleanliness" value="Poor"> Poor<br />
+<input type="radio" name="Cleanliness" value="NoOpinion"> No Opinion<br />
+</form><br /><br />
+<form method="POST" action="AirlineRatings.php">
+<p>Noise Level of Aircraft</p>
+<input type="radio" name="Noise" value="Excellent"> Excellent<br />
+<input type="radio" name="Noise" value="Good"> Good<br />
+<input type="radio" name="Noise" value="Fair"> Fair<br />
+<input type="radio" name="Noise" value="Poor"> Poor<br />
+<input type="radio" name="Noise" value="NoOpinion"> No Opinion<br />
+<p><input type="submit" value="Submit" />Submit</p>
+</form><br /><br />
+<p><a href="AirlineRatingsRetrieval.php">View Past Survey Results</a></p>
+</body>
+</html>
